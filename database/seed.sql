@@ -1,8 +1,8 @@
 USE fitfoot_store;
 
 INSERT INTO users (name, email, password_hash, role) VALUES
-  ('Admin User', 'admin@fitfoot.com', '$2a$10$QwM3Yx/7U2Qk3v1P7e8FQe2Hj7mB7K0jO4IGS2u5W9F7q9eGz6Q2', 'admin'),
-  ('Demo Customer', 'customer@fitfoot.com', '$2a$10$QwM3Yx/7U2Qk3v1P7e8FQe2Hj7mB7K0jO4IGS2u5W9F7q9eGz6Q2', 'customer');
+  ('Admin User', 'admin@fitfoot.com', '$2a$10$1EeUPwlY3r.GQA1Xqe1oQOxdP1PmD12.Eu1hGWLI.fhPtWsnUpFoG', 'admin'),
+  ('Demo Customer', 'customer@fitfoot.com', '$2a$10$xlhwdkpMR6I84EYkGH4ZQuYcMSWLUg.fsEf885IdW64LmeKbd1/We', 'customer');
 
 INSERT INTO products (name, price, color, stock, image_url, description) VALUES
   ('Air Glide Runner', 119.99, 'purple', 18, 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80', 'Lightweight daily runner with premium cushioning.'),
